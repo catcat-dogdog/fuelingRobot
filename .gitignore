@@ -1,4 +1,5 @@
 # STM32 Compile
+STM32/Obj/
 *.o
 *.elf
 *.bin
@@ -13,6 +14,7 @@
 .settings/
 *.uvopt*
 *.uvproj*
+*.uvgui*
 *.dep
 *.bak
 
@@ -20,4 +22,4 @@
 __pycache__/
 *.mpy
 
-.docx
+*.docx
