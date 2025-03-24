@@ -1,4 +1,4 @@
-# STM32 编译文件
+# STM32 Compile
 *.o
 *.elf
 *.bin
@@ -8,7 +8,7 @@
 *.lst
 *.log
 
-# STM32 IDE 相关
+# STM32 IDE 
 .vscode/
 .settings/
 *.uvopt*
@@ -16,7 +16,7 @@
 *.dep
 *.bak
 
-# OpenMV 缓存
+# OpenMV Cache
 __pycache__/
 *.mpy
 
