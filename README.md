@@ -9,7 +9,7 @@ OpenMV部分`FuelingRobot`负责图像识别和处理，主要通过 `find_april
   - `FuelingRobot.py`: 处理 OpenMV 视觉信息并控制加油操作。
   - `test/`: OpenMV 相关的测试代码。
 
-### STM32
+## STM32
 
 STM32 部分控制机械臂的抓取与释放动作，通过串口接收来自 OpenMV 的控制信息，根据位置和角度调整机械臂的位置。根据传感器信息进行自动导航。。
 - `STM32/`: STM32 微控制器相关代码。
